@@ -165,7 +165,7 @@ public class RCTCameraModule extends ReactContextBaseJavaModule
             private Map<String, Object> getBarCodeConstants() {
                 return Collections.unmodifiableMap(new HashMap<String, Object>() {
                     {
-                        // @TODO add barcode types
+                        put("interleaved2of5", "interleaved2of5");
                     }
                 });
             }
